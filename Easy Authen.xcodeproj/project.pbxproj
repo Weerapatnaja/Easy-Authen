@@ -12,6 +12,7 @@
 		FAA96AA71EEFD7620068C599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA96AA51EEFD7620068C599 /* Main.storyboard */; };
 		FAA96AA91EEFD7620068C599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA96AA81EEFD7620068C599 /* Assets.xcassets */; };
 		FAA96AAC1EEFD7620068C599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA96AAA1EEFD7620068C599 /* LaunchScreen.storyboard */; };
+		FAA96AB41EEFDAA90068C599 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA96AB31EEFDAA90068C599 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAA96AA81EEFD7620068C599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA96AAB1EEFD7620068C599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA96AAD1EEFD7620068C599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA96AB31EEFDAA90068C599 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../Desktop/bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FAA96AA01EEFD7620068C599 /* Easy Authen */ = {
 			isa = PBXGroup;
 			children = (
+				FAA96AB31EEFDAA90068C599 /* bg.jpg */,
 				FAA96AA11EEFD7620068C599 /* AppDelegate.swift */,
 				FAA96AA31EEFD7620068C599 /* ViewController.swift */,
 				FAA96AA51EEFD7620068C599 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				FAA96AAC1EEFD7620068C599 /* LaunchScreen.storyboard in Resources */,
 				FAA96AA91EEFD7620068C599 /* Assets.xcassets in Resources */,
+				FAA96AB41EEFDAA90068C599 /* bg.jpg in Resources */,
 				FAA96AA71EEFD7620068C599 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
