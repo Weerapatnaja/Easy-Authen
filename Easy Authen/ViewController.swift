@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     
     @IBAction func LoginButton(_ sender: Any) {
         
+        MessageLable.text = " "
+        
     //Get Value From TextField
         strUser = UserTextFleid.text
         strPass = PasswordTextFleid.text
@@ -45,12 +47,20 @@ class ViewController: UIViewController {
         print("intPass ==> \(intPass!)")
         
         //Call checkSpace
-        if checkSpace(myString: strUser!) {
-            print("user OK ")
+        if checkSpace(myString: strUser!) && checkSpace(myString: strPass!) {
+            print("No Space")
+           showMessage(strMessage: " Thank You Login ")
         }else{
-            print("Blank User")
+            print("Have Space")
+            showMessage(strMessage: "Please Fill Every Blank")
         }
         
+//        if checkSpace(myString: strPass!) {
+//            print("Password OK")
+//        }else{
+//        print("Blank Password")
+//            showMessage(strMessage: "Please Fill Password")
+//        }
     }   //LoginButton
     
     
@@ -60,6 +70,14 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
     }   //MainMethod
+    
+    func showMessage(strMessage: String) -> Void {
+        MessageLable.text = strMessage
+        
+    }
+    
+    
+    
     
     func checkSpace(myString:String) -> Bool {
         let intString = myString.characters.count
